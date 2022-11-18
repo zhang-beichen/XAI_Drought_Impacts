@@ -13,6 +13,7 @@ This document is to help use this repository to reproduce the results in the pap
 │ ├── national
 │ ├── state
 ├── scripts
+├── src
 ```
 
 ## data
@@ -52,6 +53,10 @@ The fine-tuned XGBoost models at the state level in California, Colorado, Kansas
 ## scripts
 
 Python files, including functions to process the datasets as machine-learning-ready and to train and test XGBoost models, are under this directory
+
+## src
+
+A folder to save the SHAP plots displayed in the README file.
 
 ------
 
