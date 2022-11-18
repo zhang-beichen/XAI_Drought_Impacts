@@ -4,14 +4,14 @@ This document is to help use this repository to reproduce the results in the pap
 
 ```markdown
 ├── data
-│		├──	data_samples
-│		├──	full_datasets
+│	├──	data_samples
+│	├──	full_datasets
 ├── docs
 ├── notebooks
 ├── saved_models
-│		├── demo
-│		├── national
-│		├── state
+│	├── demo
+│	├── national
+│	├── state
 ├── scripts
 ```
 
@@ -53,9 +53,9 @@ The fine-tuned XGBoost models at the state level in California, Colorado, Kansas
 
 Python files, including functions to process the datasets as machine-learning-ready and to train and test XGBoost models, are under this directory
 
+------
 
-
-**To be noticed: **
+## To be noticed: 
 
 * Models saved by *joblib* require to be correctly loaded using the same version of libraries: *<u>xgboost==1.6.0,  joblib==1.1.0</u>* 
 

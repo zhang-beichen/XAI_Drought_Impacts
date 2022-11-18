@@ -20,22 +20,24 @@
 
 If you find this study might help your research, please consider citing the following paper
 
-`@inproceedings{xgboost_drought_impacts,`
+```
+@inproceedings{xgboost_drought_impacts,
 
-​	`title = {Quantitative Assessment of Drought Impacts Using XGBoost based on the Drought Impact Reporter},`
+​	title = {Quantitative Assessment of Drought Impacts Using XGBoost based on the Drought Impact Reporter},
 
-​	`doi = {10.48550/ARXIV.2211.02768},`
+​	doi = {10.48550/ARXIV.2211.02768},
 
-​	`url = {https://arxiv.org/abs/2211.02768},`
+​	url = {https://arxiv.org/abs/2211.02768},
 
-​	`booktitle = {Tackling {Climate} {Change} with {Machine} {Learning} {Workshop}, 34th {Conference} on {Neural} {Information} {Processing} {Systems} ({NeurIPS} 2020)},`
+​	booktitle = {Tackling {Climate} {Change} with {Machine} {Learning} {Workshop}, 34th {Conference} on {Neural} {Information} {Processing} {Systems} ({NeurIPS} 2020)},
 
-​	`author = {Zhang, Beichen and Salem, Fatima K. Abu and Hayes, Michael J. and Tadesse, Tsegaye},`
+​	author = {Zhang, Beichen and Salem, Fatima K. Abu and Hayes, Michael J. and Tadesse, Tsegaye},
 
-​	`publisher = {arXiv},`
+​	publisher = {arXiv},
 
-​	`year = {2022},`
+​	year = {2022},
 
-​	`copyright = {arXiv.org perpetual, non-exclusive license}`
-`}`
+​	copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
 
