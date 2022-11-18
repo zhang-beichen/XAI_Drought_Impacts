@@ -6,7 +6,7 @@
 > The explainability and interpretability of the XGBoost model revealed promising and actionable insight. The precipitation and temperature anomalies were significantly better associated with the impact occurrence than the types of land cover and social vulnerabilities based on the XGBoost models. The information learned from XGBoost and explained by the SHAP tree interpreters revealed consistent patterns of abnormal dryness and different types of impact occurrence at the state level. The patterns of temperature anomalies are more complex and not monotonic. The SHAP interpretations of the effect of both precipitation and temperature anomalies on drought impacts predictions differed markedly across all the states observed in this study. The SHAP interpretations of the effect of both precipitation and temperature anomalies on drought impacts predictions differed markedly across all the states observed in this study. 
 > We also experimented with transfer learning by fine tuning models that are well trained at the scale of climate regions to improve prediction in smaller spatial extent such as states within the same climate region. Overall, this study indicates the preliminary success of applying explainable ML to studying drought impacts in the U.S. Our framework would enable stakeholders to better understand the complex drought impacts at the regional level through the explainable ML framework and outputs, and to manipulate the fundamental hydro-meteorological variables for drought impact assessment more efficiently.
 
-<a href="https://arxiv.org/abs/2211.02768"> Preliminary study submit to the NeurIPS workshop</a>
+<a href="https://arxiv.org/abs/2211.02768"> Preliminary study submitted to the NeurIPS 2020 workshop</a>
 
 <a href="https://www.climatechange.ai/papers/neurips2020/18"> Video from the Tackling Climate Change with Machine Learning</a>
 
@@ -20,7 +20,7 @@
 
 If you find this study might help your research, please consider citing the following paper
 
-```
+```tex
 @inproceedings{xgboost_drought_impacts,
 
 ​	title = {Quantitative Assessment of Drought Impacts Using XGBoost based on the Drought Impact Reporter},
