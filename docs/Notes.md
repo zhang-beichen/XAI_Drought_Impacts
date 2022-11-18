@@ -2,10 +2,10 @@
 
 This document is to help use this repository to reproduce the results in the paper: *Explainable Machine Learning Applications to Predict and Assess Complex Drought Impacts* and to share the fine-tuned models and the drought impact datasets.
 
-```markdown
+```
 ├── data
-│	├──	data_samples
-│	├──	full_datasets
+│	├── data_samples
+│	├── full_datasets
 ├── docs
 ├── notebooks
 ├── saved_models
