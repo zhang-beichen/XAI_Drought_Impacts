@@ -1,6 +1,6 @@
 # Full Datasets Accessibility
 
-Full datasets includes:
+Full datasets include:
 
 **Hydro-meteorological features:**
 
@@ -21,4 +21,3 @@ Full datasets includes:
 Regarding the fact that the dataset is large, it could not be deposited in the repository. But it has been made publicly available at Google Drive: https://drive.google.com/file/d/1u4I9RknFsLSpMu4GZGeE0OERzXIYsFYF/view?usp=share_link. 
 
 If you use the datasets in your research, please considering citing this work properly. If you have further questions, please reach out the correpsonding author by emailing: beichen@huskers.unl.edu.
-
