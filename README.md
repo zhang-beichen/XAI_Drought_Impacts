@@ -1,12 +1,17 @@
 # Explainable Machine Learning for the Prediction and Assessment of Complex Drought Impacts
 
-*\<Author List\>*
+**Beichen Zhang**, Fatima K. Abu Salem, Michael J. Hayes, Kelly Helm Smith, Tsegaye Tadesse, Brian D. Wardlow
 
-> **Abstract:** Drought is a common and costly natural disaster with broad economic, environmental, and social impacts. To better monitor the intensity, severity, and onset of drought events, artificial intelligence (AI) and machine learning (ML) have been widely and increasingly applied in relative studies because of their outstanding performance on predictive tasks. However, for practical applications like disaster monitoring and assessment, the cost of the model’s failure, especially false negative predictions, might have a significant impact on society. Stakeholders are not satisfied with or do not “trust” the predictions from the models considered as “black boxes”. The explainability of ML models becomes progressively crucial in studying drought and its impacts. Additionally, given the characteristics of drought, it is challenging to quantitatively identify and evaluate complex impacts caused by drought events. Hence, we proposed **an explainable ML framework using XGBoost and SHAP based on a comprehensive drought impacts database**, the National Drought Mitigation Center’s Drought Impact Reporter, as well as the hydro-meteorological indices in the U.S.
->
-> The explainability and interpretability of the XGBoost model revealed promising and actionable insight. The precipitation and temperature anomalies were significantly better associated with the impact occurrence than the types of land cover and social vulnerabilities based on the XGBoost models. **The information learned from XGBoost and explained by the SHAP tree interpreters revealed consistent patterns of abnormal dryness and different types of impact occurrence at the state level. The patterns of temperature anomalies are more complex and not monotonic. The SHAP interpretations of the effect of both precipitation and temperature anomalies on drought impacts predictions differed markedly across all the states observed in this study. ** 
-> 
-> We also experimented with **transfer learning by fine tuning models that are well trained at the scale of climate regions** to improve prediction in smaller spatial extent such as states within the same climate region. **Overall, this study indicates the preliminary success of applying explainable ML to studying drought impacts in the U.S. Our framework would enable stakeholders to better understand the complex drought impacts at the regional level through the explainable ML framework and outputs, and to manipulate the fundamental hydro-meteorological variables for drought impact assessment more efficiently.
+***This study was sbumitted to Science of the Total Environment (STOTEN) in February 2023.***
+
+## Abstract
+
+> Drought is a common and costly natural disaster with broad social, economic, and environmental impacts. Artificial intelligence (AI) and machine learning (ML) have been widely and increasingly applied in relative studies because of their outstanding performance on predictive tasks. However, for practical applications like disaster monitoring and assessment, the cost of the model’s failure, especially false negative predictions, might have a significant impact on society. Stakeholders are not satisfied with or do not “trust” the predictions from the models considered as “black boxes”. The explainability of ML models becomes progressively crucial in studying drought and its impacts. Hence, we proposed an explainable ML pipeline using XGBoost and SHAP based on a comprehensive drought impacts database in the U.S. The XGBoost models in the pipeline significantly outperformed the baseline models in predicting the occurrence of multi-dimensional drought impacts. The state- level case studies show that **the Standardized Precipitation Index (SPI) and Standardized Temperature Index (STI) contribute more significantly to predicting drought impacts than land cover types and social vulnerabilities.** The patterns of the SHAP values reveal expected relationships between the SPI variables and drought impacts, in which negative SPI values positively contribute to the occurrence of drought impacts. **The explainability based on the SPI variables improves the trustworthiness of the XGBoost models.** Overall, this study indicates the initial success of applying explainable ML to predicting and assessing complex drought impacts. **The proposed pipeline has promising results in providing accurate predictions of the occurrence of drought impacts and making the relationships between drought impacts and indicators more interpretable. The study also reveals the potential of utilizing explainable ML to help stakeholders better understand the complex drought impacts at the regional level.**
+
+## Graphic Abstract
+
+<p align="center">
+<img src="src/Graphic_Abstract.png" alt="Graphic Abstract" style="zoom:70%;" />
 
 <a href="https://arxiv.org/abs/2211.02768"> Preliminary study submitted to the NeurIPS 2020 workshop</a>
 
@@ -33,17 +38,17 @@
 
 ## Performance of XGBoost on predicting drought impacts
 
-F2 score on the test dataset at national level:
+$F_2$ score on the test dataset at the national level:
 
 |         | Agriculture | Economy   | Fire      | Plant & Wildlife | Relief, Response & Restriction | Society \& Public Health | Water Supply \& Quality |
 | ------- | ----------- | --------- | --------- | ---------------- | ------------------------------ | ------------------------ | ----------------------- |
-| XGBoost | **0.914**   | **0.868** | **0.876** | **0.899**        | **0.889**                      | **0.868**                | **0.856**               |
+| XGBoost | **0.914**   | **0.881** | **0.876** | **0.899**        | **0.889**                      | **0.868**                | **0.856**               |
 | RF      | 0.797       | 0.723     | 0.724     | 0.759            | 0.771                          | 0.765                    | 0.733                   |
 | LR      | 0.678       | 0.716     | 0.599     | 0.621            | 0.640                          | 0.566                    | 0.592                   |
 | SVM     | 0.351       | 0.024     | 0.127     | 0.265            | 0.249                          | 0.117                    | 0.062                   |
 | OneR    | 0.248       | 0.123     | 0.094     | 0.083            | 0.164                          | 0.133                    | 0.083                   |
 
-## Interpretation of the XGBoost model of drought impacts on fire in California
+## Interpretation of the XGBoost model of drought impacts related to fire in California
 
 <p align="center">
 <img src="src/CA_FIRE_SHAP_SPI.png" alt="Interpretation of the SPI from the model" style="zoom:12%;" />
