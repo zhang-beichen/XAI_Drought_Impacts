@@ -2,7 +2,7 @@
 
 **Beichen Zhang**, Fatima K. Abu Salem, Michael J. Hayes, Kelly Helm Smith, Tsegaye Tadesse, Brian D. Wardlow
 
-***This study was sbumitted to Science of the Total Environment (STOTEN) in February 2023.***
+***This study was sbumitted to [Science of the Total Environment (STOTEN)](https://www.sciencedirect.com/journal/science-of-the-total-environment) [IF: 10.75] in February 2023.***
 
 ## Abstract
 
