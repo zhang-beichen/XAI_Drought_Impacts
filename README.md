@@ -2,11 +2,11 @@
 
 **Beichen Zhang**, Fatima K. Abu Salem, Michael J. Hayes, Kelly Helm Smith, Tsegaye Tadesse, Brian D. Wardlow
 
-***This study was sbumitted to [Science of the Total Environment (STOTEN)](https://www.sciencedirect.com/journal/science-of-the-total-environment) [IF: 10.75] in February 2023.***
+***The script and demo of the research published in [Science of the Total Environment (STOTEN)](https://www.sciencedirect.com/journal/science-of-the-total-environment)  July 2023.***
 
 ## Abstract
 
-> Drought is a common and costly natural disaster with broad social, economic, and environmental impacts. Artificial intelligence (AI) and machine learning (ML) have been widely and increasingly applied in relative studies because of their outstanding performance on predictive tasks. However, for practical applications like disaster monitoring and assessment, the cost of the model’s failure, especially false negative predictions, might have a significant impact on society. Stakeholders are not satisfied with or do not “trust” the predictions from the models considered as “black boxes”. The explainability of ML models becomes progressively crucial in studying drought and its impacts. Hence, we proposed an explainable ML pipeline using XGBoost and SHAP based on a comprehensive drought impacts database in the U.S. The XGBoost models in the pipeline significantly outperformed the baseline models in predicting the occurrence of multi-dimensional drought impacts. The state- level case studies show that **the Standardized Precipitation Index (SPI) and Standardized Temperature Index (STI) contribute more significantly to predicting drought impacts than land cover types and social vulnerabilities.** The patterns of the SHAP values reveal expected relationships between the SPI variables and drought impacts, in which negative SPI values positively contribute to the occurrence of drought impacts. **The explainability based on the SPI variables improves the trustworthiness of the XGBoost models.** Overall, this study indicates the initial success of applying explainable ML to predicting and assessing complex drought impacts. **The proposed pipeline has promising results in providing accurate predictions of the occurrence of drought impacts and making the relationships between drought impacts and indicators more interpretable. The study also reveals the potential of utilizing explainable ML to help stakeholders better understand the complex drought impacts at the regional level.**
+> Drought is a common and costly natural disaster with broad social, economic, and environmental impacts. Machine learning (ML) has been widely applied in scientific research because of its outstanding performance on predictive tasks. However, for practical applications like disaster monitoring and assessment, the cost of the model’s failure, especially false negative predictions, might significantly affect society. Stakeholders are not satisfied with or do not “trust” the predictions from a so-called *black box*. The explainability of ML models becomes progressively crucial in studying drought and its impacts. In this work, we propose an explainable ML pipeline using the XGBoost model and SHAP model based on a comprehensive database of drought impacts in the U.S. **The XGBoost models significantly outperformed the baseline models in predicting the occurrence of multi-dimensional drought impacts derived from the text-based Drought Impact Reporter**, attaining an average F2 score of 0.883 at the national level and 0.942 at the state level. The interpretation of the models at the state scale indicates that the Standardized Precipitation Index (SPI) and Standardized Temperature Index (STI) contribute significantly to predicting multi-dimensional drought impacts. **The time scalar, importance, and relationships of the SPI and STI vary depending on the types of drought impacts and locations. The patterns between the SPI variables and drought impacts indicated by the SHAP values reveal an expected relationship in which negative SPI values positively contribute to complex drought impacts. The explainability based on the SPI variables improves the trustworthiness of the XGBoost models.** Overall, **this study reveals promising results in accurately predicting complex drought impacts and rendering the relationships between the impacts and indicators more interpretable. This study also reveals the potential of utilizing explainable ML for the general social good to help stakeholders better understand the multi-dimensional drought impacts at the regional level and motivate appropriate responses.**
 
 ## Graphic Abstract
 
@@ -70,6 +70,14 @@ style="zoom:12%;" />
 If you find this study might help your research, please consider citing the following paper:
 
 ```tex
+@article{zhang2023explainable,
+  title={Explainable machine learning for the prediction and assessment of complex drought impacts},
+  author={Zhang, Beichen and Salem, Fatima K Abu and Hayes, Michael J and Smith, Kelly Helm and Tadesse, Tsegaye and Wardlow, Brian D},
+  journal={Science of The Total Environment},
+  pages={165509},
+  year={2023},
+  publisher={Elsevier}
+}
 @inproceedings{xgboost_drought_impacts,
 	title = {Quantitative Assessment of Drought Impacts Using XGBoost based on the Drought Impact Reporter},
 	url = {https://arxiv.org/abs/2211.02768},
